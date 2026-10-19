@@ -1,0 +1,50 @@
+/* 1. Modificamos el fondo de toda la pantalla */
+body {
+    background-color: #f4f4f9; /* Un color gris muy claro y suave para descansar la vista */
+    color: #333333;            /* Texto gris oscuro (el negro puro cansa al leer) */
+    font-family: Arial, sans-serif; /* Cambia la letra común por una más moderna y limpia */
+    padding: 20px;
+    margin: 0;
+}
+
+/* 2. Diseñamos la "tarjeta" o caja blanca central */
+.contenedor {
+    background-color: #ffffff; /* Fondo blanco para que resalte */
+    max-width: 500px;          /* Ancho máximo ideal para pantallas de celulares */
+    margin: 30px auto;         /* Centra la caja horizontalmente en la pantalla */
+    padding: 25px;             /* Espacio libre por dentro para que el texto no toque los bordes */
+    border-radius: 10px;       /* Redondea las esquinas de la caja para un look moderno */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Agrega una sombra sutil para dar efecto de relieve */
+}
+
+/* 3. Estilo para el título principal */
+h1 {
+    color: #2c3e50;            /* Color azul oscuro elegante */
+    text-align: center;        /* Centra el título de tu libro */
+}
+
+/* 4. Estilo para el nombre del autor */
+.autor {
+    text-align: center;
+    font-style: italic;        /* Hace la letra cursiva */
+    color: #7f8c8d;            /* Un gris más claro para que sea un texto secundario */
+}
+
+/* 5. Ajustes para el texto de la sinopsis */
+.sinopsis {
+    line-height: 1.6;          /* Separa un poco las líneas del párrafo para que se lea mejor */
+    color: #555555;
+}
+
+/* 6. Transformamos el enlace en un botón de descarga llamativo */
+.boton-descarga {
+    display: block;            /* Hace que el botón ocupe todo el ancho disponible */
+    text-align: center;        /* Centra el texto "Descargar" dentro del botón */
+    background-color: #2980b9; /* Color verde "éxito" o descarga */
+    color: white;              /* Letras blancas para que contrasten */
+    padding: 12px;             /* Hace el botón más grueso y fácil de presionar con el dedo */
+    text-decoration: none;     /* Quita la línea subrayada típica de los enlaces */
+    border-radius: 5px;        /* Redondea un poco las esquinas del botón */
+    font-weight: bold;         /* Hace la letra más gruesa */
+    margin-top: 25px;          /* Separa el botón del texto de arriba */
+}
